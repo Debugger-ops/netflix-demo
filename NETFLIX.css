@@ -1,0 +1,407 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    padding-bottom: 70px;
+    background-image: url("https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg");
+    height: 80vh;
+    background-size: max(1000px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+  
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    top: 0;
+    background-color: black;
+    position: absolute;
+    padding-bottom: 65px;
+}
+
+nav{
+    height: 62px;
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    width: 225px;
+    padding-left: 10px;
+}
+nav span{
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+.hero> :nth-child(1){
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+.separation{
+    display: flex;
+    height:7px;
+    background-color: rgb(54, 53, 53);
+    padding: 0 60px;
+}
+.btn-red{
+    font-family: poppins;
+    background-color: red;
+    color: white;
+    padding: 4px 20px;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-lang{
+    font-family: poppins;
+    background-color: rgb(23, 23, 23,0.7);
+    color: white;
+    padding: 4px 29px;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.btn-red-sm{
+    padding: 9px 44px;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.main input{
+    padding: 9px 57px;
+    padding-left: 15px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(23, 23, 23,0.7);
+    border: 1px solid rgb(246, 238, 238,0.5);
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* gap: 400px; */
+
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+
+}
+section.first > div :nth-child(1){
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+section.first > div :nth-child(2){
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+.secImg{
+   
+    position: relative;
+    top: 0;
+}
+.secImg img{
+    
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+ 
+}
+.secImg video{
+    width: 340px;
+    padding: 9px 45px;
+    position: absolute;
+    top: 64px;
+    right: 0px;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* gap: 400px; */
+
+}
+section.second > div{
+    display: flex;
+    flex-direction: column;
+
+}
+section.second > div :nth-child(1){
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+section.second > div :nth-child(2){
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+.secImg2{
+   
+    position: relative;
+    top: 0;
+}
+.secImg2 img{
+    
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+ 
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* gap: 400px; */
+
+}
+section.third > div{
+    display: flex;
+    flex-direction: column;
+
+}
+section.third > div :nth-child(1){
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+section.third > div :nth-child(2){
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+.secImg3{
+   
+    position: relative;
+    top: 0;
+}
+.secImg3 img{
+    
+    width: 35vw;
+    position: relative;
+    z-index: 20;
+ 
+}
+.secImg3 video{
+    width: 330px;
+    padding: 9px 10px;
+    position: absolute;
+    top: 18px;
+    left: 75px;
+
+    
+}
+
+.fourth{
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* gap: 400px; */
+
+}
+section.fourth > div{
+    display: flex;
+    flex-direction: column;
+
+}
+section.fourth > div :nth-child(1){
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+section.fourth > div :nth-child(2){
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+.secImg4{
+   
+    position: relative;
+    top: 0;
+}
+.secImg4 img{
+    
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+ 
+}
+.faq h2{
+    text-align: center;
+    font-size: 34px;
+    padding: 19px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 24px;
+    font-size: 24px;
+
+}
+
+faqbox :hover{
+    background-color: rgb(108, 107, 107);
+    color: white;
+}
+.faqbox{
+ display: flex;
+ justify-content: space-between;
+ background-color: rgb(52, 52, 52);
+ padding: 24px;
+ max-width: 60vw;
+ margin: 6px auto;
+ transition: all;
+}
+.faqbox img{
+    filter: invert(1);
+}
+
+.tablet{
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    padding: 24px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.tablet span{
+    margin: auto;
+}
+footer{
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    padding: 14px;
+}
+
+.question{
+    padding: 34px 0;
+    padding-bottom: 34px;
+    font-size: 20px;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-item{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.ind{
+   
+  
+}
+
+.type{
+    margin-top: 50px;
+    margin-left: 210px;
+    margin-bottom: 23px;
+    display: flex;
+    font-family: poppins;
+    background-color: rgb(23, 23, 23,0.7);
+    color: white;
+    padding: 7px 32px;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.ind span{
+    color: white;
+    padding:210px;
+    
+}
